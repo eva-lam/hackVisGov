@@ -1,9 +1,7 @@
 <!-- <h1 class="title">VisGov Bot</h1> -->
 <h1></h1>
-<img src="../../../assets/logo.png" alt="Smiley face">
+<img src="../../../assets/logo.png" class="image" alt="Smiley face">
 <blockquote>Parliament Analysis Made Simple</blockquote>
-
-
 
 <ng-container *ngFor="let message of messages | async">
 
@@ -21,4 +19,8 @@
 <input [(ngModel)]="formValue" (keyup.enter)="sendMessage()" type="text"><br>
 
 <button class="button-color"(click)="sendMessage()">Send</button>
+
+<button class="button-color"(click)="getAttendance()">Show Latest Parliament Attendance</button>
+
+
 

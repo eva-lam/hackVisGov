@@ -2,6 +2,13 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:28px;
     margin-top:10px;
+    margin-bottom:0px;
+    align-items: center;
+}
+
+.image,blockquote{
+    align-content: center;
+    align-items: center;
 }
 .message {
     border-radius: 50px;
@@ -28,5 +35,7 @@ margin-top: -10px;
 
 .button-color {
     background-color: grey;
+    width:100%;
     
   }
+

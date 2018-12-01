@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 import { environment } from '../../environments/environment';
-
 import { ApiAiClient } from 'api-ai-javascript';
 
 import { Observable } from 'rxjs/Observable';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+
 
 export class Message {
   constructor(public content: string, public sentBy: string) {}
