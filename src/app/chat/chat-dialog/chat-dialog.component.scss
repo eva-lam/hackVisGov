@@ -1,3 +1,8 @@
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:28px;
+    margin-top:10px;
+}
 .message {
     border-radius: 50px;
     margin: 0 15px 10px;
@@ -15,9 +20,13 @@
     background-color: #E5E4E9;
     color: #363636;
     margin-right: 100px;
-
 }
 .message.to + .message.to,
 .message.from + .message.from {
 margin-top: -10px;
 }
+
+.button-color {
+    background-color: grey;
+    
+  }
